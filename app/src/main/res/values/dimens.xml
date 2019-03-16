@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_general">100dp</dimen>
+    <dimen name="margin_general">50dp</dimen>
     <dimen name="margin_tittle">20dp</dimen>
     <dimen name="margin_number">50dp</dimen>
-    <dimen name="margin_top_button">100dp</dimen>
+    <dimen name="margin_top_button">50dp</dimen>
     <dimen name="margin_button">10dp</dimen>
 </resources>

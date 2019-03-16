@@ -26,9 +26,6 @@ public class MainActivity extends Activity {
         btn1 = findViewById(R.id.button1);
         btn2 = findViewById(R.id.button2);
 
-        entran.setText(nentran);
-        salen.setText(nsalen);
-
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,8 +39,8 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 nentran--;
                 nsalen++;
-                entran.setText(nentran);
-                salen.setText(nsalen);
+                entran.setText(+nentran);
+                salen.setText(+nsalen);
             }
         });
     }
